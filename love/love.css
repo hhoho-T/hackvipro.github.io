@@ -642,7 +642,8 @@ body{
     z-index: 100;
 }
 .giftbox img{
-    width: 100%;
+    width: 90%;
+    margin: 0 0 20px -43px;
 }
 .textLetter{
     position: relative;
