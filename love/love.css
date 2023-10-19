@@ -18,7 +18,7 @@ body{
 .formInput{
     position: absolute;
     top: -100%;
-    width: 110%;
+    width: 122%;
     left: 50%;
     transform: translateX(-50%);
     background-color: #EA4C89;
