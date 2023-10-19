@@ -243,12 +243,12 @@
     // chữ của thư bạn muốn gửi
     let indexTextContent = 0;
     let textLetterContent = document.querySelector('.contentLetter');
-    const textLetterP = "Chúc em iu một ngày 20/10 vui vẻ😍, Yêu em";
+    const textLetterP = "Chúc em iu một ngày 20/10 vui vẻ😍, Yêu em nhiều🥰";
     let timoutTextLetterContent;
     function textCharLetterContent(){
         if (indexTextContent < textLetterP.length) {
             textLetterContent.textContent += textLetterP[indexTextContent];
-            indexTextContent+2;
+            indexTextContent++;
             setTimeout(indexTextContent, 100);
         }
         else{
